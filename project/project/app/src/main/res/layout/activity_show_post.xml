@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context=".ui.user.post.showPost.showPostActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/linearLayoutCompat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:textAlignment="center"
+                android:padding="0dp"
+                android:text="from place"
+                android:textColor="#000"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_weight="1"></TextView>
+
+            <TextView
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:padding="0dp"
+                android:text="to place"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_weight="1"></TextView>
+
+            <TextView
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:padding="0dp"
+                android:text="available seats"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_weight="1"></TextView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <Spinner
+                android:textAlignment="center"
+                android:padding="0dp"
+                android:id="@+id/spinner_from"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_weight="1"></Spinner>
+
+            <Spinner
+                android:textAlignment="center"
+                android:padding="0dp"
+                android:id="@+id/spinner_to"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_weight="1"></Spinner>
+
+            <Spinner
+                android:textAlignment="center"
+                android:padding="0dp"
+                android:id="@+id/spinner_avaliable_seat"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_weight="1"></Spinner>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+             android:layout_marginTop="8dp"
+            android:weightSum="10">
+
+            <EditText
+                android:hint="details"
+                android:id="@+id/edit_text_note"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7">
+
+            </EditText>
+
+            <EditText
+                android:hint="price"
+                android:id="@+id/edit_text_price"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"></EditText>
+
+            <Button
+                android:id="@+id/button_add_post"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="add"></Button>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lesson_name">
+
+        <TextView
+            android:id="@+id/textView_show_date"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_weight="8"></TextView>
+
+        <Button
+            android:id="@+id/change_date"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:text="change date"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/textView_show_time"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_weight="8"></TextView>
+
+        <Button
+            android:id="@+id/change_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="change time"></Button>
+
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView_post"
+        android:layout_width="411dp"
+        android:layout_height="447dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCompat"></androidx.recyclerview.widget.RecyclerView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

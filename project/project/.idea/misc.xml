@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.290625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1288487282463186" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/child_items.xml" value="0.1" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/content_main.xml" value="0.12650602409638553" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/fragment_delete_address.xml" value="0.23125836680053546" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/fragment_read_userlogin.xml" value="0.12650602409638553" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/groub_items.xml" value="0.13755020080321284" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w1240dp/post_item_update_without_name.xml" value="0.25" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout-w936dp/activity_login.xml" value="0.150390625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/activity_admin.xml" value="0.2911458333333333" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/activity_main.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/activity_profile.xml" value="0.35989583333333336" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/activity_register.xml" value="0.20052083333333334" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/activity_show_post.xml" value="0.4473684210526316" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/app_bar_main.xml" value="0.2140625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/child_items.xml" value="0.2140625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/content_main.xml" value="0.2140625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/drawer_layout.xml" value="0.196875" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/fragment_create_address.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/fragment_crud_user.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/fragment_delete_address.xml" value="0.35597826086956524" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/fragment_delete_post.xml" value="0.20729166666666668" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/groub_items.xml" value="0.2140625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/post_item.xml" value="0.5" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/post_item_delete.xml" value="0.5" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/post_item_delete_without_name.xml" value="0.2140625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/post_item_without_name.xml" value="0.2140625" />
+        <entry key="..\:/Users/osama/Desktop/java/project/app/src/main/res/layout/post_update.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
